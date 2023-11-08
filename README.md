@@ -4,7 +4,7 @@ WhatsApp PHP Bot. Basic functionality that the WhatsApp bot needs: send and rece
 We'll show you how to write a simple PHP bot using our Cloud API.
 The demo bot will react and respond to commands sent to it in the form of regular WhatsApp messages to your number. You can get a token for the bot by registering at https://panel.whapi.cloud/register
 
-## Whapi.Cloud WhatsApp API
+## Whapi.Cloud Php WhatsApp Integration
 This example of the WhatsApp bot implementation touches in detail on the most frequently used functionality: send message, send file, create group, send message to WhatsApp Group. This will allow you to adapt WhatsApp API and source code to your tasks and needs, or take it as a basis for creating any other integration.
 In the source code of the bot you will find the following functionality:
 <ul>
@@ -24,7 +24,8 @@ In the source code of the bot you will find the following functionality:
 ## Getting Started
 https://support.whapi.cloud/help-desk/getting-started/getting-started
 ### How to Connect to Whapi.Cloud
-Registration. The first step is to register on the Whapi.Cloud website and create an account. <b>It's free and doesn't require you to enter a credit card.</b>
+Registration: https://panel.whapi.cloud/register
+The first step is to register on the Whapi.Cloud website and create an account. <b>It's free and doesn't require you to enter a credit card.</b>
 After registration you will immediately have access to a test channel with a small limitation. Wait for it to start (it usually takes about a minute). You will need to connect your phone for Whatsapp automation. It is from the connected phone that messages will be sent. The big advantage of the service is that it takes only a couple of minutes to launch and start working.
 
 To connect your phone, use the QR code available when you click on your trial channel in your personal account. Then open WhatsApp on your mobile device, go to Settings -> Connected devices -> Connect device -> Scan QR code.
