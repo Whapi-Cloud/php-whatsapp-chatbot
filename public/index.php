@@ -145,7 +145,7 @@ $app->post('/messages', function (Request $request, Response $response) use ($co
                 break;
 
             case 'PRODUCT':
-                // Замените на ID вашего продукта
+                // Replace with your product ID
                 $endpoint = "business/products/{$config['product']}";
                 break;
 
