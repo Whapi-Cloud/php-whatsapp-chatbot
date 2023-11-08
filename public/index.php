@@ -13,7 +13,7 @@ $client = new Client([
     'base_uri' => $config['apiUrl']
 ]);
 
-// Константы команд
+// Commands
 const COMMANDS = [
     'TEXT' => 'Simple text message',
     'IMAGE' => 'Send image',
@@ -26,7 +26,7 @@ const COMMANDS = [
     'GROUPS_IDS' => 'Get the id\'s of your three groups'
 ];
 
-// Пути к файлам
+// Url files
 const FILES = [
     'IMAGE' => './files/file_example_JPG_100kB.jpg',
     'DOCUMENT' => './files/file-example_PDF_500_kB.pdf',
