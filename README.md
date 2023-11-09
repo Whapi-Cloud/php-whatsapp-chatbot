@@ -32,4 +32,4 @@ To connect your phone, use the QR code available when you click on your trial ch
 
 In the second and third steps, the service will ask you to customize the channel: write its name for your convenience, set webhooks, change settings. All these steps can be skipped, and we will come back to webhooks a little later. After launching, you will find in the center block under the information about limits, your API KEY, that is Token. This token will be used to authenticate your API requests. Generally, it's added to the request headers as a Bearer Token or simply as a request parameter, depending on the API method you're using.
 
-Working with hooks: https://support.whapi.cloud/help-desk/guides/complete-guide-to-webhooks-on-whatsapp-api
+Paste the token into /public/config.php in the "token" line
