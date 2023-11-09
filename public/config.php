@@ -3,9 +3,11 @@ return [
     // API endpoint URL
     "apiUrl" => "https://gate.whapi.cloud",
     // API token from your channel
-    "token" => "HLREga6iU9FedsHS33rJ9dPYgm5D2Up1 ",
-    "group" => '120363177599599603@g.us',
+    "token" => "YOUR CHANNEL TOKEN ",
+    // The ID of the group to which we will send the message. Use to find out the ID: https://whapi.readme.io/reference/getgroups
+    "group" => '120363167596599603@g.us',
+    // The ID of the item we will ship in the example. Create a product in your WhatsApp and find out the product ID: https://whapi.readme.io/reference/getproducts
     "product" => '6559353560856703',
-    // Bot`s URL
+    // Bot`s URL - Link to your server. At ( {server link}/messages ), when POST is requested, processing occurs in index.php
     "botUrl" => null
 ];
