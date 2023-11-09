@@ -108,7 +108,7 @@ $app->post('/messages', function (Request $request, Response $response) use ($co
             continue;
         }
 
-        $sender = ['to' => $message['from']];
+        $sender = ['to' => $message['chat_id']];
         $endpoint = 'messages/text';
         $textBody = trim($message['text']['body'] ?? '');
         $commandIndex = is_numeric($textBody) ? (int)$textBody - 1 : null;
