@@ -9,5 +9,5 @@ return [
     // The ID of the item we will ship in the example. Create a product in your WhatsApp and find out the product ID: https://whapi.readme.io/reference/getproducts
     "product" => '6559353560856703',
     // Bot`s URL - Link to your server. At ( {server link}/messages ), when POST is requested, processing occurs in index.php
-    "botUrl" => null
+    "botUrl" => "https://yoursite.com/messages"
 ];
