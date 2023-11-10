@@ -73,7 +73,7 @@ function toFormData($params)
     }
     return $multipart;
 }
-
+// Call this function if you want to setup a webhook through the API. In this example it is not called: you will need to go to the channel settings in your personal cabinet and set the webhook link like {link to your server}/messages
 function setHook()
 {
     global $config;
