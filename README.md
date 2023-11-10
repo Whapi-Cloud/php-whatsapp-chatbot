@@ -28,7 +28,7 @@ Registration: https://panel.whapi.cloud/register
 The first step is to register on the Whapi.Cloud website and create an account. <b>It's free and doesn't require you to enter a credit card.</b>
 After registration you will immediately have access to a test channel with a small limitation. Wait for it to start (it usually takes about a minute). You will need to connect your phone for Whatsapp automation. It is from the connected phone that messages will be sent. The big advantage of the service is that it takes only a couple of minutes to launch and start working.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yqt8n2hvkimqrgue2xwv.png)
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ep3pc4jsna9pzagfouj8.png)
 
 To connect your phone, use the QR code available when you click on your trial channel in your personal account. Then open WhatsApp on your mobile device, go to Settings -> Connected devices -> Connect device -> Scan QR code.
 
