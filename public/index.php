@@ -99,7 +99,7 @@ $app->get('/', function (Request $request, Response $response) {
     return $response->write('Bot is running');
 });
 
-$app->post('/messages', function (Request $request, Response $response) use ($config) {
+$app->post('/hook/messages', function (Request $request, Response $response) use ($config) {
     $data = json_decode($request->getBody(), true);
     $messages = $data['messages'] ?? [];
 
