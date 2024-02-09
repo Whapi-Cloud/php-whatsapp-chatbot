@@ -88,7 +88,7 @@ function setHook()
                             'method' => 'post'
                         ]
                     ],
-                    'mode' => 'body'
+                    'mode' => 'method'
                 ]
             ]
         ], 'PATCH');
